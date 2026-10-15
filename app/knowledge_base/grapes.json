@@ -1,0 +1,203 @@
+{
+  "version": "1.0.0",
+  "grapes": [
+    {
+      "name": "Cabernet Sauvignon",
+      "synonyms": ["Cab Sauv"],
+      "default_wine_type": "red",
+      "acidity": 4,
+      "tannin": 5,
+      "body": 5,
+      "sweetness": 1,
+      "primary_aromas": ["blackcurrant", "cassis", "blackberry", "bell pepper", "cedar"],
+      "winemaking_markers": ["oak aging adds vanilla, tobacco, cigar box, and clove"]
+    },
+    {
+      "name": "Merlot",
+      "synonyms": [],
+      "default_wine_type": "red",
+      "acidity": 3,
+      "tannin": 3,
+      "body": 4,
+      "sweetness": 1,
+      "primary_aromas": ["black cherry", "plum", "cocoa", "bay leaf"],
+      "winemaking_markers": ["rounded tannins from barrel maturation, mocha notes"]
+    },
+    {
+      "name": "Pinot Noir",
+      "synonyms": ["Spätburgunder"],
+      "default_wine_type": "red",
+      "acidity": 4,
+      "tannin": 2,
+      "body": 2,
+      "sweetness": 1,
+      "primary_aromas": ["red cherry", "raspberry", "forest floor", "hibiscus", "mushroom"],
+      "winemaking_markers": ["whole-cluster fermentation brings spice and floral lift"]
+    },
+    {
+      "name": "Syrah",
+      "synonyms": ["Shiraz"],
+      "default_wine_type": "red",
+      "acidity": 3,
+      "tannin": 4,
+      "body": 4,
+      "sweetness": 1,
+      "primary_aromas": ["blackberry", "black pepper", "smoked meat", "black olive", "violet"],
+      "winemaking_markers": ["oak contact contributes sweet spice and roasted coffee notes"]
+    },
+    {
+      "name": "Nebbiolo",
+      "synonyms": [],
+      "default_wine_type": "red",
+      "acidity": 5,
+      "tannin": 5,
+      "body": 4,
+      "sweetness": 1,
+      "primary_aromas": ["sour cherry", "tar", "dried rose petals", "anise", "leather"],
+      "winemaking_markers": ["long maceration and traditional large oak cask (botti) aging"]
+    },
+    {
+      "name": "Sangiovese",
+      "synonyms": ["Brunello", "Morellino"],
+      "default_wine_type": "red",
+      "acidity": 5,
+      "tannin": 4,
+      "body": 3,
+      "sweetness": 1,
+      "primary_aromas": ["tart red cherry", "roasted tomato", "oregano", "balsamic glaze", "clay earth"],
+      "winemaking_markers": ["subtle neutral oak seasoning preserves high-toned acidity"]
+    },
+    {
+      "name": "Tempranillo",
+      "synonyms": ["Tinto Fino", "Tinta del Pais"],
+      "default_wine_type": "red",
+      "acidity": 3,
+      "tannin": 4,
+      "body": 4,
+      "sweetness": 1,
+      "primary_aromas": ["cherry", "dried fig", "cedar", "dill", "leather"],
+      "winemaking_markers": ["extensive American and French oak barrel maturation gives vanilla and coconut"]
+    },
+    {
+      "name": "Chardonnay",
+      "synonyms": [],
+      "default_wine_type": "white",
+      "acidity": 3,
+      "tannin": null,
+      "body": 3,
+      "sweetness": 1,
+      "primary_aromas": ["green apple", "lemon zest", "white peach", "pear"],
+      "winemaking_markers": ["malolactic fermentation adds buttery texture; oak aging yields toasted brioche"]
+    },
+    {
+      "name": "Sauvignon Blanc",
+      "synonyms": [],
+      "default_wine_type": "white",
+      "acidity": 5,
+      "tannin": null,
+      "body": 2,
+      "sweetness": 1,
+      "primary_aromas": ["grapefruit", "gooseberry", "fresh cut grass", "lime", "crushed flint"],
+      "winemaking_markers": ["stainless steel fermentation preserves crisp pyrazines and thiol aromatics"]
+    },
+    {
+      "name": "Riesling",
+      "synonyms": [],
+      "default_wine_type": "white",
+      "acidity": 5,
+      "tannin": null,
+      "body": 2,
+      "sweetness": 1,
+      "primary_aromas": ["lime", "green apple", "white blossom", "wet stone", "beeswax"],
+      "winemaking_markers": ["unoaked, cold fermentation retains piercing linear acidity"]
+    },
+    {
+      "name": "Gamay",
+      "synonyms": [],
+      "default_wine_type": "red",
+      "acidity": 4,
+      "tannin": 1,
+      "body": 2,
+      "sweetness": 1,
+      "primary_aromas": ["fresh strawberry", "pomegranate", "banana/bubblegum", "violet"],
+      "winemaking_markers": ["carbonic maceration yields bright candied red fruit and soft tannins"]
+    },
+    {
+      "name": "Cabernet Franc",
+      "synonyms": ["Cab Franc"],
+      "default_wine_type": "red",
+      "acidity": 4,
+      "tannin": 3,
+      "body": 3,
+      "sweetness": 1,
+      "primary_aromas": ["redcurrant", "raspberry", "bell pepper", "crushed gravel", "violet"],
+      "winemaking_markers": ["moderate barrel ageing enhances graphite pencil lead and savory spice"]
+    },
+    {
+      "name": "Viognier",
+      "synonyms": [],
+      "default_wine_type": "white",
+      "acidity": 2,
+      "tannin": null,
+      "body": 4,
+      "sweetness": 1,
+      "primary_aromas": ["white peach", "apricot", "honeysuckle", "ginger", "jasmine"],
+      "winemaking_markers": ["lees stirring (bâtonnage) and neutral wood build lush, viscous mouthfeel"]
+    },
+    {
+      "name": "Melon de Bourgogne",
+      "synonyms": ["Melon"],
+      "default_wine_type": "white",
+      "acidity": 5,
+      "tannin": null,
+      "body": 2,
+      "sweetness": 1,
+      "primary_aromas": ["green apple", "lemon zest", "oyster shell", "sea spray"],
+      "winemaking_markers": ["sur lie ageing on fine lees imparts subtle yeastiness and creamy texture"]
+    },
+    {
+      "name": "Nero d'Avola",
+      "synonyms": ["Calabrese"],
+      "default_wine_type": "red",
+      "acidity": 3,
+      "tannin": 4,
+      "body": 4,
+      "sweetness": 1,
+      "primary_aromas": ["black cherry", "black plum", "sweet tobacco", "licorice"],
+      "winemaking_markers": ["oak maturation softens robust tannins and highlights warm spice"]
+    },
+    {
+      "name": "Grenache",
+      "synonyms": ["Garnacha", "Grenache Noir"],
+      "default_wine_type": "red",
+      "acidity": 3,
+      "tannin": 2,
+      "body": 4,
+      "sweetness": 1,
+      "primary_aromas": ["strawberry", "red cherry", "white pepper", "garrigue herbs"],
+      "winemaking_markers": ["concrete vat fermentation preserves high-toned red fruit and spice"]
+    },
+    {
+      "name": "Savagnin",
+      "synonyms": ["Nature"],
+      "default_wine_type": "white",
+      "acidity": 5,
+      "tannin": null,
+      "body": 4,
+      "sweetness": 1,
+      "primary_aromas": ["green walnut", "lemon curd", "bruised apple", "smoky minerality"],
+      "winemaking_markers": ["oxidative or sous-voile ageing yields complex nutty nuances"]
+    },
+    {
+      "name": "Poulsard",
+      "synonyms": ["Ploussard"],
+      "default_wine_type": "red",
+      "acidity": 4,
+      "tannin": 1,
+      "body": 2,
+      "sweetness": 1,
+      "primary_aromas": ["redcurrant", "cranberry", "wild rose", "underbrush"],
+      "winemaking_markers": ["gentle natural maceration produces pale translucent robe and delicate aromatics"]
+    }
+  ]
+}

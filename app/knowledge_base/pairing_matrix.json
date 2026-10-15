@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "structural_rules": [
+    {
+      "trigger": "high_tannin",
+      "rationale": "Tannins bind chemically to salivary proteins and dietary fat, cleansing the palate and rounding the astringency.",
+      "recommended_dishes": [
+        {
+          "dish_name": "Grilled ribeye steak or prime rib",
+          "category": "Red Meat",
+          "pairing_rule": "Protein-tannin binding",
+          "rationale": "High protein and marbling soften muscular tannins and release black fruit flavors."
+        },
+        {
+          "dish_name": "Roasted lamb shank with rosemary",
+          "category": "Red Meat",
+          "pairing_rule": "Fat cleansing",
+          "rationale": "Rich unctuous lamb fat cuts through firm structure, while herbal notes mirror wine complexity."
+        }
+      ],
+      "conflicts": [
+        {
+          "dish_category": "Oily fish (salmon, mackerel, sardines)",
+          "chemical_conflict": "Tannins interact with fish oils to produce an unpleasant metallic, tinny taste on the palate."
+        },
+        {
+          "dish_category": "Spicy chili dishes (Habanero, Thai bird's eye)",
+          "chemical_conflict": "Alcohol and astringent tannins amplify capsaicin heat, causing a burning sensation."
+        }
+      ]
+    },
+    {
+      "trigger": "high_acidity_white",
+      "rationale": "High natural acidity acts like a squirt of lemon, cutting through richness and lifting delicate flavors.",
+      "recommended_dishes": [
+        {
+          "dish_name": "Fresh goat cheese (Chèvre) crostini",
+          "category": "Cheese",
+          "pairing_rule": "Acid matching",
+          "rationale": "The high lactic acidity of goat cheese perfectly matches the crisp citrus profile of the wine."
+        },
+        {
+          "dish_name": "Pan-seared white fish with lemon-butter sauce",
+          "category": "Seafood",
+          "pairing_rule": "Fat cutting",
+          "rationale": "Vibrant acidity cuts through rich butter sauce without flattening delicate white fish flaking."
+        },
+        {
+          "dish_name": "Fresh oysters on the half shell",
+          "category": "Shellfish",
+          "pairing_rule": "Saline and mineral resonance",
+          "rationale": "High mineral and saline notes enhance briny oysters while cleansing the palate."
+        }
+      ],
+      "conflicts": [
+        {
+          "dish_category": "Very sweet desserts (chocolate fondant, caramel tarts)",
+          "chemical_conflict": "Sugar in the food makes a dry, high-acid wine taste aggressively sour, stripped, and thin."
+        }
+      ]
+    },
+    {
+      "trigger": "light_medium_red",
+      "rationale": "Delicate red fruit, moderate tannins, and lively acidity complement earthy and savory umami dishes.",
+      "recommended_dishes": [
+        {
+          "dish_name": "Roast duck breast with cherry reduction",
+          "category": "Poultry / Game",
+          "pairing_rule": "Flavor echo & moderate acid cutting",
+          "rationale": "Gamey poultry fat is balanced by crisp acidity without tannins overwhelming tender meat."
+        },
+        {
+          "dish_name": "Wild mushroom risotto or grilled portobello",
+          "category": "Vegetarian / Earthy",
+          "pairing_rule": "Umami and forest floor resonance",
+          "rationale": "Savory mushroom earthiness pairs seamlessly with the tertiary forest-floor notes of the wine."
+        }
+      ],
+      "conflicts": [
+        {
+          "dish_category": "Heavily smoked or charred BBQ meats",
+          "chemical_conflict": "Intense smoke and charred sweetness dominate delicate red fruit and light body."
+        }
+      ]
+    }
+  ]
+}

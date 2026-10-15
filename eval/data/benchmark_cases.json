@@ -1,0 +1,429 @@
+{
+  "version": "1.0.0",
+  "cases": [
+    {
+      "case_id": "case_01_standard_faiveley",
+      "image_path": "tests/fixtures/faiveley_mercurey.jpg",
+      "difficulty_tags": [
+        "standard"
+      ],
+      "split": "synthetic",
+      "ground_truth_extraction": {
+        "producer": "Domaine Faiveley",
+        "wine_name": "Mercurey Premier Cru Clos des Myglands",
+        "appellation": "Mercurey",
+        "region": "Bourgogne",
+        "country": "France",
+        "vintage": 2020,
+        "abv": 13.5,
+        "wine_type": "red",
+        "grape_varieties": [
+          "Pinot Noir"
+        ],
+        "barcode": "3256228001010"
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": "ref_faiveley_mercurey_2020",
+      "verified_claims": []
+    },
+    {
+      "case_id": "case_02_curved_glare_lynch_bages",
+      "image_path": "tests/fixtures/lynch_bages_curved.jpg",
+      "difficulty_tags": [
+        "curved",
+        "glare"
+      ],
+      "split": "synthetic",
+      "ground_truth_extraction": {
+        "producer": "Château Lynch-Bages",
+        "wine_name": "Grand Cru Classé",
+        "appellation": "Pauillac",
+        "region": "Bordeaux",
+        "country": "France",
+        "vintage": 2018,
+        "abv": 14.5,
+        "wine_type": "red",
+        "grape_varieties": [],
+        "barcode": "3348120018012"
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": "ref_lynch_bages_2018",
+      "verified_claims": []
+    },
+    {
+      "case_id": "case_03_back_label_gascogne",
+      "image_path": "tests/fixtures/gascogne_back.jpg",
+      "difficulty_tags": [
+        "back_label"
+      ],
+      "split": "synthetic",
+      "ground_truth_extraction": {
+        "producer": null,
+        "wine_name": null,
+        "appellation": "Côtes de Gascogne",
+        "region": "Sud-Ouest",
+        "country": "France",
+        "vintage": 2022,
+        "abv": 12.0,
+        "wine_type": "white",
+        "grape_varieties": [
+          "Sauvignon Blanc"
+        ],
+        "barcode": "3256228123456"
+      },
+      "expected_tier": "identified_style",
+      "expected_canonical_id": null,
+      "verified_claims": [
+        "Côtes de Gascogne",
+        "Sauvignon Blanc",
+        "2022"
+      ]
+    },
+    {
+      "case_id": "case_04_obscure_cave_producer",
+      "image_path": "tests/fixtures/obscure_cave_natural.jpg",
+      "difficulty_tags": [
+        "obscure_wine"
+      ],
+      "split": "synthetic",
+      "ground_truth_extraction": {
+        "producer": "Domaine Inconnu et Fils",
+        "wine_name": "Cuvée Sauvage",
+        "appellation": "Sancerre",
+        "region": "Loire Valley",
+        "country": "France",
+        "vintage": 2021,
+        "abv": 13.0,
+        "wine_type": "white",
+        "grape_varieties": [],
+        "barcode": null
+      },
+      "expected_tier": "identified_style",
+      "expected_canonical_id": null,
+      "verified_claims": [
+        "Sancerre",
+        "Sauvignon Blanc",
+        "2021",
+        "Loire Valley"
+      ]
+    },
+    {
+      "case_id": "case_05_unreadable_heavy_glare",
+      "image_path": "tests/fixtures/unreadable_glare.jpg",
+      "difficulty_tags": [
+        "glare",
+        "curved"
+      ],
+      "split": "synthetic",
+      "ground_truth_extraction": {
+        "producer": null,
+        "wine_name": null,
+        "appellation": null,
+        "region": null,
+        "country": null,
+        "vintage": null,
+        "abv": null,
+        "wine_type": null,
+        "grape_varieties": [],
+        "barcode": null
+      },
+      "expected_tier": "unidentified",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_03",
+      "image_path": "wineryPhotos/3winefront.webp",
+      "image_paths": [
+        "wineryPhotos/3winefront.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved"
+      ],
+      "split": "test",
+      "ground_truth_extraction": {
+        "producer": "Château Saint-Hilaire",
+        "wine_name": "Graves",
+        "appellation": "Graves AOC",
+        "region": "Bordeaux",
+        "country": "France",
+        "vintage": 2023,
+        "abv": null,
+        "wine_type": "red",
+        "grape_varieties": [],
+        "barcode": null
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_05",
+      "image_path": "wineryPhotos/5winefront.webp",
+      "image_paths": [
+        "wineryPhotos/5winefront.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved"
+      ],
+      "split": "dev",
+      "ground_truth_extraction": {
+        "producer": "Gérard Bertrand",
+        "wine_name": "Naturalys",
+        "appellation": "Pays d'Oc IGP",
+        "region": "Languedoc",
+        "country": "France",
+        "vintage": 2024,
+        "abv": null,
+        "wine_type": "red",
+        "grape_varieties": [
+          "Pinot Noir"
+        ],
+        "barcode": null
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_08",
+      "image_path": "wineryPhotos/8winefront.webp",
+      "image_paths": [
+        "wineryPhotos/8winefront.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved",
+        "multiple_bottles"
+      ],
+      "split": "dev",
+      "ground_truth_extraction": {
+        "producer": "Cantina Cellaro",
+        "wine_name": "Usulea",
+        "appellation": "Sicilia DOC",
+        "region": "Sicily",
+        "country": "Italy",
+        "vintage": null,
+        "abv": null,
+        "wine_type": "red",
+        "grape_varieties": [
+          "Nero d'Avola"
+        ],
+        "barcode": null
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_10",
+      "image_path": "wineryPhotos/10winefront.webp",
+      "image_paths": [
+        "wineryPhotos/10winefront.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved",
+        "multiple_bottles"
+      ],
+      "split": "test",
+      "ground_truth_extraction": {
+        "producer": "Château Couronneau",
+        "wine_name": "Rouge",
+        "appellation": "Vin de France",
+        "region": null,
+        "country": "France",
+        "vintage": null,
+        "abv": null,
+        "wine_type": "red",
+        "grape_varieties": [],
+        "barcode": null
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_13",
+      "image_path": "wineryPhotos/13winefront.webp",
+      "image_paths": [
+        "wineryPhotos/13winefront.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved",
+        "multiple_bottles"
+      ],
+      "split": "dev",
+      "ground_truth_extraction": {
+        "producer": "Famille Brocard",
+        "wine_name": null,
+        "appellation": "Chablis AOC",
+        "region": "Burgundy",
+        "country": "France",
+        "vintage": 2025,
+        "abv": null,
+        "wine_type": "white",
+        "grape_varieties": [],
+        "barcode": null
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_16",
+      "image_path": "wineryPhotos/16winefront.webp",
+      "image_paths": [
+        "wineryPhotos/16winefront.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved",
+        "multiple_bottles",
+        "obscure_wine"
+      ],
+      "split": "dev",
+      "ground_truth_extraction": {
+        "producer": "Villa Noria",
+        "wine_name": "Levin",
+        "appellation": null,
+        "region": null,
+        "country": "France",
+        "vintage": 2025,
+        "abv": 0.0,
+        "wine_type": "white",
+        "grape_varieties": [
+          "Chardonnay"
+        ],
+        "barcode": null
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_17",
+      "image_path": "wineryPhotos/17winefront.webp",
+      "image_paths": [
+        "wineryPhotos/17winefront.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved",
+        "multiple_bottles"
+      ],
+      "split": "test",
+      "ground_truth_extraction": {
+        "producer": "Domaine Les Grands Bois",
+        "wine_name": null,
+        "appellation": "Côtes du Rhône",
+        "region": "Rhône",
+        "country": "France",
+        "vintage": 2024,
+        "abv": null,
+        "wine_type": "white",
+        "grape_varieties": [
+          "Viognier"
+        ],
+        "barcode": null
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_18",
+      "image_path": "wineryPhotos/18winefront.webp",
+      "image_paths": [
+        "wineryPhotos/18winefront.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved",
+        "multiple_bottles"
+      ],
+      "split": "test",
+      "ground_truth_extraction": {
+        "producer": "Domaine Les Grands Bois",
+        "wine_name": null,
+        "appellation": "Côtes du Rhône",
+        "region": "Rhône",
+        "country": "France",
+        "vintage": 2025,
+        "abv": null,
+        "wine_type": "white",
+        "grape_varieties": [
+          "Viognier"
+        ],
+        "barcode": "3760044890087"
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_19",
+      "image_path": "wineryPhotos/19winefront.webp",
+      "image_paths": [
+        "wineryPhotos/19winefront.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved",
+        "multiple_bottles"
+      ],
+      "split": "dev",
+      "ground_truth_extraction": {
+        "producer": "Château de la Fessardière",
+        "wine_name": "Les Vagues de la Fessardière",
+        "appellation": "Muscadet AOP",
+        "region": "Loire",
+        "country": "France",
+        "vintage": null,
+        "abv": null,
+        "wine_type": "white",
+        "grape_varieties": [
+          "Melon de Bourgogne"
+        ],
+        "barcode": null
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    },
+    {
+      "case_id": "bottle_31",
+      "image_path": "wineryPhotos/31wineback.webp",
+      "image_paths": [
+        "wineryPhotos/31wineback.webp"
+      ],
+      "difficulty_tags": [
+        "glare",
+        "curved",
+        "back_label",
+        "obscure_wine"
+      ],
+      "split": "dev",
+      "ground_truth_extraction": {
+        "producer": "Les Pieds sur Terre",
+        "wine_name": "Les Trouillots",
+        "appellation": "Côtes du Jura AOC",
+        "region": "Jura",
+        "country": "France",
+        "vintage": 2022,
+        "abv": 12.5,
+        "wine_type": "red",
+        "grape_varieties": [
+          "Pinot Noir"
+        ],
+        "barcode": null
+      },
+      "expected_tier": "identified_wine",
+      "expected_canonical_id": null,
+      "verified_claims": []
+    }
+  ]
+}

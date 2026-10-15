@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "serving_profiles": {
+    "red_full_bodied": {
+      "temperature_min_c": 16.0,
+      "temperature_max_c": 18.0,
+      "recommended_glass": "Bordeaux glass with a tall bowl to aerate robust tannins",
+      "decanting_needed": true,
+      "decanting_minutes": 45,
+      "decanting_rationale": "Softens youthful astringent tannins and allows concentrated fruit and cedar notes to open",
+      "typical_drink_window_years": "5 to 15 years from vintage"
+    },
+    "red_light_medium": {
+      "temperature_min_c": 13.0,
+      "temperature_max_c": 15.0,
+      "recommended_glass": "Burgundy balloon glass with a wide bowl to collect delicate floral and red fruit aromas",
+      "decanting_needed": false,
+      "decanting_minutes": 20,
+      "decanting_rationale": "Gentle aeration helps dissipate bottle reduction without losing delicate top aromas",
+      "typical_drink_window_years": "2 to 7 years from vintage"
+    },
+    "white_crisp": {
+      "temperature_min_c": 8.0,
+      "temperature_max_c": 10.0,
+      "recommended_glass": "Narrow U-shaped white wine glass to preserve chilled temperature and concentrate citrus zest",
+      "decanting_needed": false,
+      "decanting_minutes": null,
+      "decanting_rationale": "Chilling highlights vibrant crisp acidity; decanting is unnecessary and warms the wine prematurely",
+      "typical_drink_window_years": "1 to 3 years from vintage"
+    },
+    "white_oaked_full": {
+      "temperature_min_c": 10.0,
+      "temperature_max_c": 12.0,
+      "recommended_glass": "Wide-mouthed Chardonnay glass allowing creamy mouthfeel and buttery aromas to emerge",
+      "decanting_needed": false,
+      "decanting_minutes": 15,
+      "decanting_rationale": "Serving slightly cellar-cool rather than ice-cold reveals secondary oak and toast complexity",
+      "typical_drink_window_years": "3 to 8 years from vintage"
+    },
+    "rose_dry": {
+      "temperature_min_c": 8.0,
+      "temperature_max_c": 10.0,
+      "recommended_glass": "Medium white wine glass with slight taper",
+      "decanting_needed": false,
+      "decanting_minutes": null,
+      "decanting_rationale": "Best enjoyed fresh and chilled to emphasize lively red fruit and refreshing acidity",
+      "typical_drink_window_years": "1 to 2 years from vintage"
+    },
+    "sparkling_traditional": {
+      "temperature_min_c": 6.0,
+      "temperature_max_c": 8.0,
+      "recommended_glass": "Tulip-shaped glass or white wine glass (preferable over flat coupe) to preserve effervescence and bouquet",
+      "decanting_needed": false,
+      "decanting_minutes": null,
+      "decanting_rationale": "Decanting releases carbonation too quickly; serve straight from a chilled bottle",
+      "typical_drink_window_years": "Ready to drink upon release"
+    }
+  }
+}

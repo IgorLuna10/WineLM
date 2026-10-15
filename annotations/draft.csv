@@ -1,0 +1,50 @@
+case_id,image_paths,split,producer,wine_name,vintage,grape_varieties,appellation,region,country,wine_type,abv,barcode_digits,expected_tier,difficulty_tags,needs_review
+bottle_01,wineryPhotos/1winefront.webp;wineryPhotos/1wineback.webp,dev,L'Octavin,Potion Magique,,,Vin de France,Jura,France,red,12.5,,,glare;curved;back_label,TRUE
+bottle_02,wineryPhotos/2winefront.webp,test,,Diverso,,,Puglia IGT,Puglia,Italy,red,,,,glare;curved,TRUE
+bottle_03,wineryPhotos/3winefront.webp,test,Château Saint-Hilaire,Graves,2023,,Graves AOC,Bordeaux,France,red,,,,glare;curved,FALSE
+bottle_04,wineryPhotos/4winefront.webp,dev,Domaine Amirault,,2025,,Bourgueil AOP,Loire,France,red,,,,glare;curved,TRUE
+bottle_05,wineryPhotos/5winefront.webp,dev,Gérard Bertrand,Naturalys,2024,Pinot Noir,Pays d'Oc IGP,Languedoc,France,red,,,,glare;curved,FALSE
+bottle_06,wineryPhotos/6winefront.webp,test,,À gauche de la Lune,,,,,France,,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_07,wineryPhotos/7winefront.webp,dev,Domaine Benedetti,Vieilles Vignes,2022,,Côtes du Rhône AOC,Rhône,France,red,,,,glare;curved;multiple_bottles,TRUE
+bottle_08,wineryPhotos/8winefront.webp,dev,Cantina Cellaro,Usulea,,Nero d'Avola,Sicilia DOC,Sicily,Italy,red,,,,glare;curved;multiple_bottles,FALSE
+bottle_09,wineryPhotos/9winefront.webp,dev,Constance Gasnier,Pierres Chaudes,2024,Cabernet Franc,Chinon AOC,Loire,France,red,12,,,glare;curved;multiple_bottles,TRUE
+bottle_10,wineryPhotos/10winefront.webp,test,Château Couronneau,Rouge,,,Vin de France,,France,red,,,,glare;curved;multiple_bottles,FALSE
+bottle_11,wineryPhotos/11winefront.webp,dev,Isabelle et Florent Simonneau,Grandiflora,,,Bordeaux AOC,Bordeaux,France,red,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_12,wineryPhotos/12winefront.webp,test,Domaine La Guicharde,,2019,,Côtes du Rhône,Rhône,France,red,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_13,wineryPhotos/13winefront.webp,dev,Famille Brocard,,2025,,Chablis AOC,Burgundy,France,white,,,,glare;curved;multiple_bottles,FALSE
+bottle_14,wineryPhotos/14winefront.webp,dev,Famille Guilhem,Blanc de Noir,,Cabernet Franc,Vin de France,Languedoc,France,white,12,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_15,wineryPhotos/15winefront.webp,test,Mas Costeplane,Lou Canoun,,,Vin de France,,France,red,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_16,wineryPhotos/16winefront.webp,dev,Villa Noria,Levin,2025,Chardonnay,,,France,white,0,,,glare;curved;multiple_bottles;obscure_wine,FALSE
+bottle_17,wineryPhotos/17winefront.webp,test,Domaine Les Grands Bois,,2024,Viognier,Côtes du Rhône,Rhône,France,white,,,,glare;curved;multiple_bottles,FALSE
+bottle_18,wineryPhotos/18winefront.webp,test,Domaine Les Grands Bois,,2025,Viognier,Côtes du Rhône,Rhône,France,white,,3760044890087,,glare;curved;multiple_bottles,FALSE
+bottle_19,wineryPhotos/19winefront.webp,dev,Château de la Fessardière,Les Vagues de la Fessardière,,Melon de Bourgogne,Muscadet AOP,Loire,France,white,,,,glare;curved;multiple_bottles,FALSE
+bottle_20,wineryPhotos/20winefront.webp,test,Château Couronneau,L'Écuyer de Couronneau,,,Bordeaux Supérieur,Bordeaux,France,red,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_21,wineryPhotos/21winefront.webp,test,Gérard Bertrand,Naturalys,2025,Chardonnay,Pays d'Oc IGP,Languedoc,France,white,,,,glare;curved;multiple_bottles,TRUE
+bottle_22,wineryPhotos/22winefront.webp,dev,Château Couronneau,Petnat de Couronneau,,,,,France,sparkling,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_23,wineryPhotos/23winefront.webp,dev,Domaine Grange des Moines,,2024,,Costières de Nîmes AOP,,France,white,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_24,wineryPhotos/24winefront.webp;wineryPhotos/24wineback.webp,test,L'Octavin,Dora Bella,,,,Jura,France,,12,,,glare;curved;back_label;obscure_wine,TRUE
+bottle_25,wineryPhotos/25winefront.webp;wineryPhotos/25wineback.webp,test,L'Octavin,Dorabella,,,,Jura,France,,14,,,glare;curved;back_label;obscure_wine;multiple_bottles;low_light,TRUE
+bottle_26,wineryPhotos/26winefront.webp;wineryPhotos/26wineback.webp,dev,L'Octavin,Hip Hip J...,,,Vin de France,Jura,France,red,11.5,,,glare;curved;back_label;obscure_wine;multiple_bottles;low_light,TRUE
+bottle_27,wineryPhotos/27wineback.webp,dev,L'Octavin,Hip Hip J...,,,Vin de France,Jura,France,red,11.5,,,glare;curved;back_label;obscure_wine;multiple_bottles;low_light,TRUE
+bottle_28,wineryPhotos/28winefront.webp;wineryPhotos/28wineback.webp,dev,Domaine de la Borde,Ad Infernum et Salutem,2024,Pinot Noir;Trousseau,Arbois Pupillin AOP,Jura,France,red,11.5,,,glare;curved;back_label;obscure_wine;multiple_bottles;low_light,TRUE
+bottle_29,wineryPhotos/29winefront.webp;wineryPhotos/29wineback.webp,dev,L'Octavin,Potion Magique,2023,Chardonnay;Savagnin;Poulsard,,Jura,France,,,,,glare;curved;back_label;obscure_wine;multiple_bottles;low_light,TRUE
+bottle_30,wineryPhotos/30winefront.webp;wineryPhotos/30wineback.webp,test,Domaine de la Borde,Ad Infernum et Salutem,2024,Pinot Noir;Trousseau,Arbois Pupillin AOP,Jura,France,red,11.5,,,glare;curved;back_label;obscure_wine;multiple_bottles;low_light,TRUE
+bottle_31,wineryPhotos/31wineback.webp,dev,Les Pieds sur Terre,Les Trouillots,2022,Pinot Noir,Côtes du Jura AOC,Jura,France,red,12.5,,,glare;curved;back_label;obscure_wine,FALSE
+bottle_33,wineryPhotos/33winefront.webp,test,L'Octavin,,,,,Jura,France,,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_34,wineryPhotos/34winefront.webp,dev,La Bouchaude,La Vague,2022,,Vin de France,Jura,France,,12.7,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_35,wineryPhotos/35winefront.webp,dev,Domaine de l'Octavin,,,,,Jura,France,,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_36,wineryPhotos/36winefront.webp,test,L'Octavin,Potion Magique,,,,Jura,France,,,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_37,wineryPhotos/37winefront.webp,test,L'Octavin,,,,,Jura,France,,,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_39,wineryPhotos/39winefront.webp,dev,,Printemps,,,Vin de France,,France,red,12.5,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_40,wineryPhotos/40winefront.webp,dev,,Mauzac In B Minor,,Mauzac,,,France,white,12.5,,,glare;curved;multiple_bottles;obscure_wine,TRUE
+bottle_41,wineryPhotos/41winefront.webp,dev,,,,,,,,,,,,glare;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_42,wineryPhotos/42winefront.webp,test,Julie Bresselon,Queue de Comète,,,,,France,,,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_43,wineryPhotos/43winefront.webp,dev,Jean-Yves Péron,Côtillon des Dames,2019,,Vin de France,Savoie,France,white,11.5,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_44,wineryPhotos/44winefront.webp,dev,L'Octavin,Charlot,,,,Jura,France,,,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_45,wineryPhotos/45winefront.webp,dev,,Reine Lune,,,,Jura,France,,12,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_46,wineryPhotos/46winefront.webp,dev,L'Octavin,Ivre de vivre,,,,Jura,France,,,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_47,wineryPhotos/47winefront.webp,test,L'Octavin,,,,,Jura,France,,,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_49,wineryPhotos/49winefront.webp,dev,Les Pieds sur Terre,Les Trouillots,,Pinot Noir,Côtes du Jura,Jura,France,red,,,,glare;curved;obscure_wine,TRUE
+bottle_53,wineryPhotos/53winefront.webp,dev,L'Octavin,,,,,Jura,France,,,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_54,wineryPhotos/54winefront.webp,test,Isabelle et Alain Allier,La Buvette,,,Vin de France,Languedoc,France,red,13,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE
+bottle_55,wineryPhotos/55winefront.webp,dev,Isabelle et Alain Allier,La Buvette,,,Vin de France,Languedoc,France,red,13,,,glare;curved;multiple_bottles;obscure_wine;low_light,TRUE

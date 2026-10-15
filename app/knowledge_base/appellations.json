@@ -1,0 +1,165 @@
+{
+  "version": "1.0.0",
+  "appellations": [
+    {
+      "name": "Pauillac",
+      "country": "France",
+      "region": "Bordeaux",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+      "climate": "Maritime temperate, influenced by the Gironde estuary and Atlantic ocean",
+      "soil_type": "Deep gravel mounds (croupes de graves) over limestone and clay subsoils",
+      "typical_styles": ["Full-bodied, powerful, structured red wine with firm tannins, cedar, and cassis notes"]
+    },
+    {
+      "name": "Mercurey",
+      "country": "France",
+      "region": "Bourgogne",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Pinot Noir", "Chardonnay"],
+      "climate": "Continental with warm summers and cold winters",
+      "soil_type": "Jurassic limestone and marl with rich iron deposits",
+      "typical_styles": ["Vibrant red berry fruit, earthy minerality, firm but elegant tannins"]
+    },
+    {
+      "name": "Chablis",
+      "country": "France",
+      "region": "Bourgogne",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Chardonnay"],
+      "climate": "Semi-continental, cool climate with spring frost risk",
+      "soil_type": "Kimmeridgian limestone rich in fossilized oyster shells (Exogyra virgula)",
+      "typical_styles": ["High natural acidity, flinty mineral character, green apple and citrus, typically unoaked"]
+    },
+    {
+      "name": "Côtes du Rhône",
+      "country": "France",
+      "region": "Rhône Valley",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Grenache", "Syrah", "Mourvèdre", "Carignan", "Cinsault"],
+      "climate": "Mediterranean, hot and sunny with Mistral wind moderating humidity",
+      "soil_type": "Alluvial stony soils, clay-limestone terraces, and rolled pebbles (galets roulés)",
+      "typical_styles": ["Juicy red and dark fruit, warming alcohol, garrigue herb nuances, accessible tannins"]
+    },
+    {
+      "name": "Chianti Classico",
+      "country": "Italy",
+      "region": "Toscana",
+      "classification_system": "DOCG",
+      "authorized_grapes": ["Sangiovese", "Canaiolo", "Colorino"],
+      "climate": "Sub-Mediterranean continental, warm sunny days and cool nights",
+      "soil_type": "Galestro (crumbly schistous clay) and Alberese (compact limestone)",
+      "typical_styles": ["High acidity, firm rustic tannins, sour cherry, dried herbs, and savoury leather"]
+    },
+    {
+      "name": "Rioja",
+      "country": "Spain",
+      "region": "La Rioja",
+      "classification_system": "DOCa",
+      "authorized_grapes": ["Tempranillo", "Garnacha", "Graciano", "Mazuelo"],
+      "climate": "Continental-Atlantic convergence, protected by the Sierra de Cantabria",
+      "soil_type": "Chalky clay (arcillo-calcáreo), ferruginous clay, and alluvial silt",
+      "typical_styles": ["Oak-influenced elegance, red fruit, vanilla, dill, and polished tannins"]
+    },
+    {
+      "name": "Sancerre",
+      "country": "France",
+      "region": "Loire Valley",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Sauvignon Blanc", "Pinot Noir"],
+      "climate": "Continental with cool oceanic breezes",
+      "soil_type": "Silex (flint), Terres Blanches (Kimmeridgian marl), and Caillottes (limestone pebbles)",
+      "typical_styles": ["Crisp mineral-driven white, gooseberry, citrus pith, gunflint, and brisk acidity"]
+    },
+    {
+      "name": "Bourgueil",
+      "country": "France",
+      "region": "Loire Valley",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Cabernet Franc"],
+      "climate": "Temperate oceanic with maritime influence",
+      "soil_type": "Tuffeau limestone and siliceous alluvial terraces (tuffeau et graviers)",
+      "typical_styles": ["Red fruit, raspberry, structured graphite mineral core, fine tannins"]
+    },
+    {
+      "name": "Chinon",
+      "country": "France",
+      "region": "Loire Valley",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Cabernet Franc"],
+      "climate": "Oceanic with continental microclimates along the Vienne river",
+      "soil_type": "Alluvial gravel terraces (graves) and limestone slopes (craie tuffeau)",
+      "typical_styles": ["Vibrant red cherry, pencil lead, leafy spice, supple to firm structure"]
+    },
+    {
+      "name": "Muscadet",
+      "country": "France",
+      "region": "Loire Valley",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Melon de Bourgogne"],
+      "climate": "Atlantic maritime, cool and humid",
+      "soil_type": "Gneiss, mica schist, amphibolite, and granite bedrock",
+      "typical_styles": ["Bone dry, saline minerality, crisp citrus, lees-contact bready texture"]
+    },
+    {
+      "name": "Graves",
+      "country": "France",
+      "region": "Bordeaux",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc"],
+      "climate": "Maritime temperate, moderated by pine forests",
+      "soil_type": "Quartz gravel, pebbles, and clay-sand subsoil",
+      "typical_styles": ["Smoky minerality, dark berries, tobacco, structured and elegant tannins"]
+    },
+    {
+      "name": "Bordeaux Supérieur",
+      "country": "France",
+      "region": "Bordeaux",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Merlot", "Cabernet Sauvignon", "Cabernet Franc"],
+      "climate": "Maritime temperate",
+      "soil_type": "Clay-limestone hillsides and gravel terraces",
+      "typical_styles": ["Plum, blackcurrant, roasted cedar, round fleshy mouthfeel"]
+    },
+    {
+      "name": "Costières de Nîmes",
+      "country": "France",
+      "region": "Rhône Valley",
+      "classification_system": "AOC",
+      "authorized_grapes": ["Grenache", "Syrah", "Mourvèdre", "Roussanne", "Marsanne", "Viognier"],
+      "climate": "Mediterranean, swept by the Mistral and sea breezes",
+      "soil_type": "Rolled siliceous pebbles (grès) over clay subsoil",
+      "typical_styles": ["Sunny fruit, garrigue herbs, stone fruit in whites, generous texture"]
+    },
+    {
+      "name": "Pays d'Oc",
+      "country": "France",
+      "region": "Languedoc",
+      "classification_system": "IGP",
+      "authorized_grapes": ["Chardonnay", "Pinot Noir", "Cabernet Sauvignon", "Merlot", "Syrah", "Viognier", "Sauvignon Blanc"],
+      "climate": "Mediterranean, hot dry summers and mild winters",
+      "soil_type": "Diverse mosaic of limestone hills, alluvial plains, and schist",
+      "typical_styles": ["Varietally expressive, fruit-forward, approachable balanced structure"]
+    },
+    {
+      "name": "Sicilia",
+      "country": "Italy",
+      "region": "Sicilia",
+      "classification_system": "DOC",
+      "authorized_grapes": ["Nero d'Avola", "Grillo", "Catarratto"],
+      "climate": "Intense Mediterranean, hot sunny days and sea breezes",
+      "soil_type": "Volcanic, calcareous clay, and sandy loam",
+      "typical_styles": ["Dark berry fruit, Mediterranean scrub, warming spice, juicy acidity"]
+    },
+    {
+      "name": "Puglia",
+      "country": "Italy",
+      "region": "Puglia",
+      "classification_system": "IGT",
+      "authorized_grapes": ["Primitivo", "Negroamaro", "Sangiovese"],
+      "climate": "Hot Mediterranean with cooling Adriatic winds",
+      "soil_type": "Red clay (terra rossa) over limestone bedrock",
+      "typical_styles": ["Sun-ripened dark cherry, dried fig, sweet earthy spices, supple tannins"]
+    }
+  ]
+}
